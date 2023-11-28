@@ -5,7 +5,8 @@ const dataJson = require("./data.json");
 //returns express application
 const app = express();
 
-//#6 part B
+//#6 part B => static middleware
+//renders css in browser
 app.use("/static", express.static("public"));
 
 //2. set your 'view enginer' to 'pug'
