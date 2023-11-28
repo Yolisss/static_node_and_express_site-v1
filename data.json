@@ -5,9 +5,9 @@
       "project_name": "a_random_quote_generator-v1-2",
       "description": "xyz",
       "technologies": ["html", "css"],
-      "live_link": "https://github.com/Yolisss/a_random_quote_generator-v1-2",
+      "live_link": "https://yolisss.github.io/a_random_quote_generator-v1-2/",
       "github_link": "https://github.com/Yolisss/a_random_quote_generator-v1-2",
-      "images_urls": ["one", "two", "three"]
+      "images_urls": ["./images/profilepic"]
     }
   ]
 }
