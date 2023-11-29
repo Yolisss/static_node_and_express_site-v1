@@ -7,6 +7,15 @@
       "technologies": ["html", "css"],
       "live_link": "https://yolisss.github.io/a_random_quote_generator-v1-2/",
       "github_link": "https://github.com/Yolisss/a_random_quote_generator-v1-2",
+      "images_urls": ["/static/images/profilepic.jpg"]
+    },
+    {
+      "id": 1,
+      "project_name": "OOP game",
+      "description": "xyz",
+      "technologies": ["html", "css"],
+      "live_link": "https://yolisss.github.io/a_random_quote_generator-v1-2/",
+      "github_link": "https://github.com/Yolisss/a_random_quote_generator-v1-2",
       "images_urls": ["./images/profilepic"]
     }
   ]
