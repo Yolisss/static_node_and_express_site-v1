@@ -49,12 +49,12 @@ app.get("/project/:id", (req, res) => {
   }
 });
 
-//#7 A; creating a custom error obj
-app.use((req, res, next) => {
-  const err = new Error("Sorry, page not found");
-  err.status = 404;
-  next(err);
-});
+// //#7 A; creating a custom error obj
+// app.use((req, res, next) => {
+//   const err = new Error("Sorry, page not found");
+//   err.status = 500;
+//   next(err);
+// });
 
 //#7 B global error
 app.use((err, req, res, next) => {
