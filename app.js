@@ -50,6 +50,7 @@ app.get("/project/:id", (req, res, next) => {
     const err = new Error();
     err.status = 404;
     err.message = "Sorry, project cannot be found";
+    console.log(message);
     next(err);
   }
 });
@@ -57,16 +58,19 @@ app.get("/project/:id", (req, res, next) => {
 //#7 A; creating a custom error obj
 app.use((req, res, next) => {
   const err = new Error("Sorry, page not found");
+  console.log(err);
   err.status = 404;
   res.send("Sorry, page does not exist");
+  console.log(res.send);
   //next(err);
 });
 
 //#7 B global error
 app.use((err, req, res, next) => {
   err.status = err.status || 500;
-  err.message = err.message || "Internal Server Error";
+  err.message = "Internal Server Error";
   res.send(`Error: ${err.message}, Status: ${err.status}`);
+  console.log(err);
 });
 
 //setting up dev server using listen method
