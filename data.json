@@ -4,24 +4,65 @@
       "id": 0,
       "project_name": "a_random_quote_generator-v1-2",
       "description": "xyz",
-      "technologies": ["html", "css", "js"],
+      "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://yolisss.github.io/a_random_quote_generator-v1-2/",
       "github_link": "https://github.com/Yolisss/a_random_quote_generator-v1-2",
       "images_urls": [
+        "/static/images/unit1proj_image.png",
         "/static/images/unit1_additionalimg_1.png",
         "/static/images/unit1_additionalimg_2.png"
       ]
     },
     {
       "id": 1,
-      "project_name": "OOP game",
+      "project_name": "data-pagination-and-filtering-v1",
       "description": "xyz",
-      "technologies": ["html", "css"],
+      "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://yolisss.github.io/a_random_quote_generator-v1-2/",
       "github_link": "https://github.com/Yolisss/a_random_quote_generator-v1-2",
       "images_urls": [
-        "/static/images/profilepic.jpg",
-        "/static/images/profilepic.jpg"
+        "/static/images/unit2proj_image.png",
+        "/static/images/unit2_additionalimg_1.png",
+        "/static/images/unit2_additionalimg_2.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "interactive-form-v3-2",
+      "description": "xyz",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://yolisss.github.io/a_random_quote_generator-v1-2/",
+      "github_link": "https://github.com/Yolisss/a_random_quote_generator-v1-2",
+      "images_urls": [
+        "/static/images/unit3proj_image.png",
+        "/static/images/unit3_additionalimg_2.png",
+        "/static/images/unit3_additionalimg_1.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "oop_game-v2",
+      "description": "xyz",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://yolisss.github.io/a_random_quote_generator-v1-2/",
+      "github_link": "https://github.com/Yolisss/a_random_quote_generator-v1-2",
+      "images_urls": [
+        "/static/images/unit4proj_image.png",
+        "/static/images/unit4_additionalimg_1.png",
+        "/static/images/unit4_additionalimg_3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Student-files",
+      "description": "xyz",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://yolisss.github.io/a_random_quote_generator-v1-2/",
+      "github_link": "https://github.com/Yolisss/a_random_quote_generator-v1-2",
+      "images_urls": [
+        "/static/images/unit5proj_image.png",
+        "/static/images/unit5_additionalimg_1.png",
+        "/static/images/unit5_additionalimg_2.png"
       ]
     }
   ]
