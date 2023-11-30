@@ -39,28 +39,34 @@ app.get("/about", (req, res) => {
 //as a var or a route param name id
 //the value for the route param from the URL will be stored in the req
 //obj params property
-app.get("/project/:id", (req, res) => {
-  const projectId = req.params.id;
+app.get("/project/:id", (req, res, next) => {
+  const projectId = parseFloat(req.params.id);
   const project = projects.find((project) => project.id === projectId);
+  console.log(projects);
+  console.log(typeof projectId);
   if (project) {
-    res.render("project", { projects });
+    res.render("project", { project });
   } else {
-    res.status(404).send("Project not found");
+    const err = new Error();
+    err.status = 404;
+    err.message = "Sorry, project cannot be found";
+    next(err);
   }
 });
 
-// //#7 A; creating a custom error obj
-// app.use((req, res, next) => {
-//   const err = new Error("Sorry, page not found");
-//   err.status = 500;
-//   next(err);
-// });
+//#7 A; creating a custom error obj
+app.use((req, res, next) => {
+  const err = new Error("Sorry, page not found");
+  err.status = 404;
+  res.send("Sorry, page does not exist");
+  //next(err);
+});
 
 //#7 B global error
 app.use((err, req, res, next) => {
   err.status = err.status || 500;
   err.message = err.message || "Internal Server Error";
-  console.log(`Error: ${err.message}, Status: ${err.status}`);
+  res.send(`Error: ${err.message}, Status: ${err.status}`);
 });
 
 //setting up dev server using listen method
