@@ -3,7 +3,7 @@
     {
       "id": 0,
       "project_name": "a_random_quote_generator-v1-2",
-      "description": "xyz",
+      "description": "Explore the enchanting world of Disney with our Random Disney Quote Generator! Click for a sprinkle of wisdom or a dose of nostalgia, as beloved Disney characters share their magical words. Let the joy of randomness transport you to the heartwarming universe of Disney storytelling.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://yolisss.github.io/a_random_quote_generator-v1-2/",
       "github_link": "https://github.com/Yolisss/a_random_quote_generator-v1-2",
@@ -16,8 +16,8 @@
     {
       "id": 1,
       "project_name": "data-pagination-and-filtering-v1",
-      "description": "xyz",
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "description": "'Data Pagination and Filtering' project easily filters through a list of individuals and navigate with pagination, providing a user-friendly experience. Effortlessly organize and explore your data, making information retrieval a breeze.",
+      "technologies": ["HTML", "CSS", "JavaScript", "DOM"],
       "live_link": "https://yolisss.github.io/data-pagination-and-filtering-v1/",
       "github_link": "https://github.com/Yolisss/data-pagination-and-filtering-v1",
       "images_urls": [
@@ -29,8 +29,8 @@
     {
       "id": 2,
       "project_name": "interactive-form-v3-2",
-      "description": "xyz",
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "description": "In this project, I used JavaScript to enhance an interactive registration form for a fictional Full Stack conference. This project validates user input and provides helpful error messages whenever the user enters invalid information into the form fields.",
+      "technologies": ["HTML", "CSS", "JavaScript", "DOM"],
       "live_link": "https://yolisss.github.io/interactive-form-v3-2/",
       "github_link": "https://github.com/Yolisss/interactive-form-v3-2",
       "images_urls": [
@@ -42,8 +42,8 @@
     {
       "id": 3,
       "project_name": "oop_game-v2",
-      "description": "xyz",
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "description": "This project is a browser-based, wording guessing game 'Phrase Hunter' that allows users to select a random, hidden phrase, which a player tries to guess by clicking letters on the onscreen keyboard. ",
+      "technologies": ["HTML", "CSS", "JavaScript", "OOP"],
       "live_link": "https://yolisss.github.io/oop_game-v2/",
       "github_link": "https://github.com/Yolisss/oop_game-v2",
       "images_urls": [
@@ -55,8 +55,15 @@
     {
       "id": 4,
       "project_name": "Student-files",
-      "description": "xyz",
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "description": "In another world, I built an app for a fictional company called Awesome Startup. They needed a smart way for employees to share contact information with each other. I used a 'Random User Generator' API to grab information for 12 random employees, and use the data to build a prototype for an Awesome Startup employee directory",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "'Random User Generator' API",
+        "Git",
+        "DOM"
+      ],
       "live_link": "https://yolisss.github.io/student-files/",
       "github_link": "https://github.com/Yolisss/student-files",
       "images_urls": [
